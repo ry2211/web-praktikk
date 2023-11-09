@@ -1,0 +1,268 @@
+:root{
+    --main-color:#ff7300;
+    --black:#afafaf;
+    --bg:#ffffff;
+    --border:.1rem solid rgba(142, 140, 140, 0.3);
+}
+
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+
+nav{
+    background-color: #ff7300;
+}
+
+.navbar-brand{
+    font-size: 16px;
+}
+
+.nav-link.activate{
+    font-weight: 600;
+    padding: 1.5rem;
+}
+
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #000000;
+    border-radius: 5rem;
+}
+
+body{
+    background: var(--bg);
+}
+
+section{
+    padding:2rem 7%;
+}
+
+.heading{
+    text-align: center;
+    color:#000000;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
+
+.heading span{
+    color:var(--main-color);
+    text-transform: uppercase;
+}
+
+
+.home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("https://i.pinimg.com/564x/ad/9f/a5/ad9fa5a15a64c4d8e7a5688aeef4b438.jpg") no-repeat; 
+    background-color:#444; 
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content {
+    max-width: 60rem;
+    text-align: center;
+}
+
+.home .content h3{
+    font-size: 5rem;
+    text-transform: uppercase;
+    color:#fff;
+}
+
+.home .content p{
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding:1rem 0;
+    color:#000000;
+}
+.featured .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+}
+
+.featured .box-container .box{
+    padding:5rem;
+    text-align: center;
+    border:var(--border);    
+}
+
+.featured .box-container .box img{
+    height: 10rem;
+}
+
+.featured .box-container .box h3{
+    color: #000000;
+    font-size: 2rem;
+    padding:1rem 0;
+}
+
+
+.featured .box-container .box:hover{
+    background:#000000;
+}
+
+.featured .box-container .box:hover > *{
+    color:var(--black);
+}
+
+.best-seller .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+}
+
+.best-seller .box-container .box{
+    padding:5rem;
+    text-align: center;
+    border:var(--border);    
+}
+
+.best-seller .box-container .box img{
+    height: 10rem;
+}
+
+.best-seller .box-container .box h3{
+    color: #000000;
+    font-size: 2rem;
+    padding:1rem 0;
+}
+
+.best-seller .box-container .box .price{
+    color: #000000;
+    font-size: 2.5rem;
+    padding:.5rem 0;
+}
+
+.best-seller .box-container .box .price span{
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+.best-seller .box-container .box:hover{
+    background:#000000;
+}
+
+.best-seller .box-container .box:hover > *{
+    color:var(--black);
+}
+
+
+.btn-produk{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:.9rem 3rem;
+    font-size: 1.7rem;
+    color:#000000;
+    background: var(--main-color);
+    cursor: pointer;
+}
+
+.btn-produk:hover{
+    letter-spacing: .2rem;
+}
+
+
+input {
+    width: 100%;
+} 
+.footer-basic {
+    padding:40px 0;
+    background-color: rgb(255, 115, 0);
+    color:#4b4c4d;
+  }
+  
+.footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+    font-weight: 600;
+  }
+  
+.footer-basic li {
+    padding:0 10px;
+  }
+  
+.footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+.footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+.footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+.footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+.footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+.footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+
+
+
+
+
+  
+
+
+
+
+
+
+
